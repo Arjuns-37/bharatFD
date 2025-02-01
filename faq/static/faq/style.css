@@ -1,0 +1,109 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right,#F1F4F9);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    color: #000000;
+}
+
+/* Heading styles */
+h1 {
+    color: #004D89;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+p {
+    color: #2D2D2D;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Language selector */
+div {
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+div a {
+    color: #FFB300;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #e0faff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+div a:hover {
+    background-color: #FFB300;
+}
+
+/* Heading for FAQ section */
+h2 {
+    color: #fff;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+/* FAQ list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* FAQ item styling */
+li {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect */
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px #FFA000;
+}
+
+/* Question styling */
+li strong {
+    color: #004D89;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Answer styling */
+li br + * {
+    color: #333;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        width: 80%;
+    }
+}
