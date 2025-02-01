@@ -1,0 +1,17 @@
+ECHO is on.
+# Ignore Python virtual environments
+venv/
+
+# Ignore Django migrations
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore environment variables files
+.env
+
+# Ignore other files you don't want to track
+*.log
